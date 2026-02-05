@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .ContainerFruit {
+            width: 500px;
+            display: grid;
+            gap: 15px;
+        }
+
+        .grapes {
+            width: 110px;
+            height: 110px;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background-color: rgb(71, 37, 80);
+        }
+
+        .grapes img {
+            width: 110px;
+            height: 110px;
+        }
+
+        .strawberry {
+            width: 110px;
+            height: 110px;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            background-color: rgb(228, 38, 38);
+        }
+
+        .strawberry img {
+            width: 110px;
+            height: 110px;
+        }
+
+        .watermelon {
+            width: 237px;
+            height: 295px;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background-color: rgb(229, 168, 168);
+        }
+
+        .watermelon img {
+            width: 237px;
+            height: 295px;
+        }
+
+        .orange {
+            width: 240px;
+            height: 170px;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: rgb(255, 122, 69);
+        }
+
+        .orange img {
+            width: 240px;
+            height: 170px;
+        }
+
+        .papaya {
+            width: 240px;
+            height: 170px;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: rgb(255, 213, 47);
+        }
+
+        .papaya img {
+            width: 240px;
+            height: 170px;
+        }
+
+        .pineapple {
+            width: 237px;
+            height: 170px;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background-color: rgb(38, 95, 52);
+        }
+
+        .pineapple img {
+            width: 237px;
+            height: 170px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center style="margin-top: 100px;">
+        <div class="ContainerFruit">
+            <div class="grapes">
+                <img src="./assets/grapes.jpg" alt="">
+            </div>
+            <div class="strawberry">
+                <img src="./assets/strawberries.jpg" alt="">
+            </div>
+            <div class="watermelon">
+                <img src="./assets/watermalon.webp" alt="">
+            </div>
+            <div class="orange">
+                <img src="./assets/orange.png" alt="">
+            </div>
+            <div class="papaya">
+                <img src="./assets/papaya.webp" alt="">
+            </div>
+            <div class="pineapple">
+                <img src="./assets/pineapple.jpg" alt="">
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
