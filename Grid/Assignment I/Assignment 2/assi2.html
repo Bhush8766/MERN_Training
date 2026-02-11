@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,3 +31,37 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 2</title>
+  <style>
+    .blog {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+      grid-template-columns: 1fr 3fr;
+      gap: 10px;
+    }
+
+    header { grid-area: header; background: lightblue; padding: 20px; }
+    aside  { grid-area: sidebar; background: lightgray; padding: 20px; }
+    main   { grid-area: main; background: lightyellow; padding: 20px; }
+    footer { grid-area: footer; background: lightgreen; padding: 20px; }
+  </style>
+</head>
+<body>
+
+<div class="blog">
+  <header>Header</header>
+  <aside>Sidebar</aside>
+  <main>Main Content</main>
+  <footer>Footer</footer>
+</div>
+
+</body>
+</html>
+>>>>>>> d8641af82e9407b5ef5e2024970bc85654f266be
